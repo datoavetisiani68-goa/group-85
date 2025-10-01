@@ -1,0 +1,5 @@
+print("giorgi 1.20")
+print("xinkali 0.40")
+print("goahomework 350.50")
+print("kartofili 5.50")
+print("alucha 2.20")
