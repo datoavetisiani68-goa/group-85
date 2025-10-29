@@ -1,4 +1,4 @@
-qula =int(input("chawere sheni qula: "))
+qula = float(input("chawere sheni qula: "))
 daswreba = int(input("chawere sheni daswreba: "))
 
 if qula>=80 and daswreba>=90:
