@@ -15,7 +15,7 @@ if number>=0:
     print("შიგნით შეამოწმე")
     if number %2==0:
         print("დადებითი ლუწი")
-    else:
+    elif number %2==1:
         print("დადებითი კენტი")
 else:
     print("რიცხვი უარყოფითია")

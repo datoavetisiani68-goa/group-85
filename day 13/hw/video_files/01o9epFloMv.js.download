@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("CAAFetaConstants",[],(function(t,n,r,o,a,i){"use strict";var e="/images/profile/picture/silhouette/profile-default_180_light.png";i.DEFAULT_PROFILE_PICTURE=e}),66);

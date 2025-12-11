@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useIGCreateNoncesMutation",["CAAWebLoggingUtils","CometRelay","PolarisOneTapLogin","useIGCreateNoncesMutation.graphql"],(function(t,n,r,o,a,i,l){"use strict";var e;function s(t){var r=e!==void 0?e:e=n("useIGCreateNoncesMutation.graphql");function a(e,n){if(!(n!=null&&n.length>0)){var r=e.create_feta_linked_profiles_onetap_nonces.feta_linked_one_tap_profiles;r.forEach(function(e){var n=e.login_nonce,r=e.profile_pic_uri,a=e.uid,i=e.username;o("PolarisOneTapLogin").addLoginNonce(a,n,i,r,t)}),o("CAAWebLoggingUtils").logMWebLoginSPIEvent("login_password_saving_opt_in_successful")}}var i=o("CometRelay").useMutation(r),l=i[0],s=i[1],u=function(){l({onCompleted:a,variables:{}})};return[u,s]}l.default=s}),98);
