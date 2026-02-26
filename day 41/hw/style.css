@@ -1,0 +1,8 @@
+a{
+    color: red;
+    font-size: 40px;
+}
+
+a:link{
+    color:  green;
+}
